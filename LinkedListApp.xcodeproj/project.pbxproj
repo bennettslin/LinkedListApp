@@ -21,6 +21,9 @@
 		3F2C926918BBE7CA007AA8F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2C924B18BBE7CA007AA8F1 /* UIKit.framework */; };
 		3F2C927118BBE7CA007AA8F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F2C926F18BBE7CA007AA8F1 /* InfoPlist.strings */; };
 		3F2C927318BBE7CA007AA8F1 /* LinkedListAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C927218BBE7CA007AA8F1 /* LinkedListAppTests.m */; };
+		3F2C927E18BBE7E2007AA8F1 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C927D18BBE7E2007AA8F1 /* Node.m */; };
+		3F2C928118BBE7EF007AA8F1 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C928018BBE7EF007AA8F1 /* LinkedList.m */; };
+		3F2C928418BBE7FA007AA8F1 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C928318BBE7FA007AA8F1 /* BinarySearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		3F2C926E18BBE7CA007AA8F1 /* LinkedListAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedListAppTests-Info.plist"; sourceTree = "<group>"; };
 		3F2C927018BBE7CA007AA8F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F2C927218BBE7CA007AA8F1 /* LinkedListAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListAppTests.m; sourceTree = "<group>"; };
+		3F2C927C18BBE7E2007AA8F1 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = ../Node.h; sourceTree = "<group>"; };
+		3F2C927D18BBE7E2007AA8F1 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Node.m; path = ../Node.m; sourceTree = "<group>"; };
+		3F2C927F18BBE7EF007AA8F1 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedList.h; path = ../LinkedList.h; sourceTree = "<group>"; };
+		3F2C928018BBE7EF007AA8F1 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedList.m; path = ../LinkedList.m; sourceTree = "<group>"; };
+		3F2C928218BBE7FA007AA8F1 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearch.h; path = ../BinarySearch.h; sourceTree = "<group>"; };
+		3F2C928318BBE7FA007AA8F1 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearch.m; path = ../BinarySearch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,12 @@
 		3F2C924D18BBE7CA007AA8F1 /* LinkedListApp */ = {
 			isa = PBXGroup;
 			children = (
+				3F2C927C18BBE7E2007AA8F1 /* Node.h */,
+				3F2C927D18BBE7E2007AA8F1 /* Node.m */,
+				3F2C927F18BBE7EF007AA8F1 /* LinkedList.h */,
+				3F2C928018BBE7EF007AA8F1 /* LinkedList.m */,
+				3F2C928218BBE7FA007AA8F1 /* BinarySearch.h */,
+				3F2C928318BBE7FA007AA8F1 /* BinarySearch.m */,
 				3F2C925618BBE7CA007AA8F1 /* AppDelegate.h */,
 				3F2C925718BBE7CA007AA8F1 /* AppDelegate.m */,
 				3F2C925918BBE7CA007AA8F1 /* Main.storyboard */,
@@ -252,6 +267,9 @@
 				3F2C925E18BBE7CA007AA8F1 /* ViewController.m in Sources */,
 				3F2C925818BBE7CA007AA8F1 /* AppDelegate.m in Sources */,
 				3F2C925418BBE7CA007AA8F1 /* main.m in Sources */,
+				3F2C928118BBE7EF007AA8F1 /* LinkedList.m in Sources */,
+				3F2C928418BBE7FA007AA8F1 /* BinarySearch.m in Sources */,
+				3F2C927E18BBE7E2007AA8F1 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

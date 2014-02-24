@@ -10,4 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *popButton;
+@property (weak, nonatomic) IBOutlet UIButton *pushButton;
+
+- (IBAction)popNode:(id)sender;
+- (IBAction)pushNode:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *frontmostNodeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *indexNodeLabel;
+@property (weak, nonatomic) IBOutlet UISearchBar *linkedListSearchBar;
+@property (weak, nonatomic) IBOutlet UISearchBar *binarySearchBar;
+@property (weak, nonatomic) IBOutlet UILabel *binaryResultLabel;
+
 @end
